@@ -3,13 +3,16 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    position: sticky;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .logo{
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 700;
+    font-size: 1.2rem;
 }
 
 .menu{
@@ -18,11 +21,13 @@
     a{
         text-decoration: none;
         margin-right: 40px;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         text-transform: uppercase;
         letter-spacing: 1px;
         font-weight: 400;
     }
+
+    
 
     .pricing{
         margin-right: 0;

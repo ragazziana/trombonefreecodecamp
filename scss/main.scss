@@ -2,13 +2,10 @@
 @import 'navbar';
 @import 'main-content';
 @import 'features';
+@import 'media-for-mobile';
 
 body{
     margin: 0;
     padding: 0;
     font-family: $font-stack;
-}
-
-.fa-fire{
-    color: black;
 }
