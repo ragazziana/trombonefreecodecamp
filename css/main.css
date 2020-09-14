@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+.navbar {
+  background-color: #EEEEEE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.logo {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+.menu a {
+  text-decoration: none;
+  margin-right: 40px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.menu .pricing {
+  margin-right: 0;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .main-text {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.main #email {
+  width: 300px;
+  height: 40px;
+  font-family: Poppins;
+  padding-left: 20px;
+  border: solid 1px black;
+  font-size: 0.8rem;
+}
+
+.main button {
+  background-color: #F1C40F;
+  width: 322px;
+  height: 40px;
+  font-family: Poppins;
+  text-align: center;
+  border: 0;
+  font-size: 0.8rem;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+.features .features1,
+.features .features2,
+.features .features3 {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 65px;
+}
+
+.features .features1 .fa-truck,
+.features .features1 .fa-battery-full,
+.features .features2 .fa-truck,
+.features .features2 .fa-battery-full,
+.features .features3 .fa-truck,
+.features .features3 .fa-battery-full {
+  color: #F1C40F;
+  font-size: 3rem;
+  text-align: left;
+  width: 50px;
+  height: 50px;
+}
+
+.features .features1 .fa-fire,
+.features .features2 .fa-fire,
+.features .features3 .fa-fire {
+  width: 50px;
+  height: 50px;
+  font-size: 4rem;
+  color: #F1C40F;
+}
+
+.features .features1 .section,
+.features .features2 .section,
+.features .features3 .section {
+  padding-left: 50px;
+}
+
+.features .features1 .features-title,
+.features .features2 .features-title,
+.features .features3 .features-title {
+  text-transform: uppercase;
+  margin: 0;
+  text-align: left;
+}
+
+.features .features1 .features-text,
+.features .features2 .features-text,
+.features .features3 .features-text {
+  margin: 0;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.features .video-container .video {
+  margin-top: 50px;
+  border: solid 15px #F1C40F;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+
+.fa-fire {
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */

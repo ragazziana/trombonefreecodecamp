@@ -1,0 +1,30 @@
+.navbar{
+    background-color: $primary-navbar;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+}
+
+.logo{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+.menu{
+
+
+    a{
+        text-decoration: none;
+        margin-right: 40px;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 400;
+    }
+
+    .pricing{
+        margin-right: 0;
+    }
+}
