@@ -9,9 +9,9 @@
           justify-content: space-between;
   padding: 20px;
   position: fixed;
-  width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  width: 100%;
 }
 
 .logo {
@@ -109,6 +109,24 @@
   padding: 10px;
 }
 
+.features .section {
+  padding-left: 50px;
+}
+
+.features .section .features-title {
+  text-transform: uppercase;
+  margin: 0;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+.features .section .features-text {
+  margin: 0;
+  text-align: left;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
 .features .features1,
 .features .features2,
 .features .features3 {
@@ -149,30 +167,6 @@
   height: 50px;
   font-size: 4rem;
   color: #F1C40F;
-}
-
-.features .features1 .section,
-.features .features2 .section,
-.features .features3 .section {
-  padding-left: 50px;
-}
-
-.features .features1 .features-title,
-.features .features2 .features-title,
-.features .features3 .features-title {
-  text-transform: uppercase;
-  margin: 0;
-  text-align: left;
-  letter-spacing: 1px;
-}
-
-.features .features1 .features-text,
-.features .features2 .features-text,
-.features .features3 .features-text {
-  margin: 0;
-  text-align: left;
-  font-size: 0.9rem;
-  letter-spacing: 1px;
 }
 
 .features .video-container .video {
@@ -227,8 +221,68 @@
   .navbar .pricing {
     text-align: center;
   }
-  .main-text {
-    margin-top: 200px;
+  .features {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .features .features1,
+  .features .features2,
+  .features .features3 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .features .features1 .fa-truck,
+  .features .features1 .fa-battery-full,
+  .features .features2 .fa-truck,
+  .features .features2 .fa-battery-full,
+  .features .features3 .fa-truck,
+  .features .features3 .fa-battery-full {
+    margin-bottom: 10px;
+  }
+  .features .features1 .fa-fire,
+  .features .features2 .fa-fire,
+  .features .features3 .fa-fire {
+    margin-bottom: 25px;
+  }
+  .features .fa-truck,
+  .features .fa-battery-full {
+    text-align: center;
+    width: 0%;
+    height: 0px;
+  }
+  .features .fa-fire {
+    width: 0%;
+    height: 0px;
+    text-align: center;
+  }
+  .features .section {
+    width: 80%;
+    padding-left: 0px;
+    text-align: center;
+  }
+  .features .section .features-title,
+  .features .section .features-text {
+    text-align: center;
+  }
+  .main .main-text {
+    padding-top: 120px;
+    font-size: 1.3rem;
   }
 }
 

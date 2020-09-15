@@ -4,6 +4,24 @@
         align-items: center;
         padding: 10px;
 
+        .section{
+            padding-left: 50px;
+
+            .features-title{
+                text-transform: uppercase;
+                margin: 0;
+                text-align: left;
+                letter-spacing: 1px;
+            }
+    
+            .features-text{
+                margin: 0;
+                text-align: left;
+                font-size: 0.9rem;
+                letter-spacing: 1px;
+            }
+        }
+
     .features1,
     .features2,
     .features3{
@@ -30,37 +48,22 @@
             color: $primary-color;
         }
 
-        .section{
-            padding-left: 50px;
-        }
-
-        .features-title{
-            text-transform: uppercase;
-            margin: 0;
-            text-align: left;
-            letter-spacing: 1px;
-        }
-
-        .features-text{
-            margin: 0;
-            text-align: left;
-            font-size: 0.9rem;
-            letter-spacing: 1px;
-        }
+        
 
     }
 
     .video-container{
-           
+     
+
+
+
+        
         .video{
             margin-top: 60px;
             border: solid 15px $primary-color;
             
         }
     }
-
-
-
 
     }
     
