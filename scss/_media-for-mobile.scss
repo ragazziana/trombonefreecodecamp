@@ -92,4 +92,24 @@
         font-size: 1.3rem;
     }
 }
+
+.cards{
+        width: 90%;
+}
+}
+
+@media (max-width: 768px){
+    
+    .cards{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .cards1,
+    .cards2,
+    .cards3{
+        margin-top: 30px;
+    }
+
+
 }

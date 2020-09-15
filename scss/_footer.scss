@@ -19,6 +19,15 @@
         font-size: 0.9rem;    
     }
 
+    a:active{
+        color: black;    
+    }
+
+    a:hover{
+        color: $secondary-color;
+    }
+
+
     }
 
     .copyright{

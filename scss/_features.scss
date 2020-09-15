@@ -46,26 +46,26 @@
             height: 50px;
             font-size: 4rem;
             color: $primary-color;
-        }
-
-        
+        }      
 
     }
-
-    .video-container{
-     
-
-
-
-        
-        .video{
-            margin-top: 60px;
-            border: solid 15px $primary-color;
-            
-        }
-    }
-
-    }
+}
     
+
+.video-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-bottom: 56.25%;
+    margin-top: 20px;
+    
+
+    iframe{
+        position: absolute;
+        width: 100%;      
+        height: 100%;
+    }
+}
     
     

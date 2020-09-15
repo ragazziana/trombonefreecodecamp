@@ -6,8 +6,7 @@
     position: fixed;
     box-sizing: border-box;
     width: 100%;
- 
-
+    z-index: 1;
 }
 
 .logo{
@@ -29,7 +28,13 @@
         font-weight: 400;
     }
 
-    
+    a:active{
+        color: black;    
+    }
+
+    a:hover{
+        color: $secondary-color;
+    }    
 
     .pricing{
         margin-right: 0;
