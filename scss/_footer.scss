@@ -1,0 +1,34 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: $primary-navbar;
+    padding: 10px;
+
+    .footer-links{
+        display: flex;
+        justify-content: flex-end;
+
+    .contact{
+            padding-right: 0px;
+        }
+
+    a{
+        padding-right: 20px;
+        text-decoration: none;
+        font-size: 0.9rem;    
+    }
+
+    }
+
+    .copyright{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+
+    p{
+        margin: 0;
+        font-size: 0.8rem;
+    }
+}

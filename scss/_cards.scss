@@ -1,0 +1,68 @@
+.aside{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+
+    .cards1,
+    .cards2,
+    .cards3{
+        border: 1px solid black;
+        margin-right: 40px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .cards3{
+        margin-right: 0px;
+    }
+    
+    
+    h3{
+        background-color: $primary-navbar;
+        padding: 10px;
+        margin: 0;
+        text-align: center;
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+
+    p{
+        text-align: center;
+        padding: 10px;
+    }
+
+    .main-txt{
+        margin-top: -10px;
+        font-size: 0.9rem;
+    }
+
+    .price{
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    button{
+        background-color: $primary-color;
+        width: 120px;
+        height: 40px;
+        border: 0;
+        align-self: center;
+        margin-bottom: 10px;
+        font-family: $font-stack;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 700;
+    }
+
+}
