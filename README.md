@@ -23,12 +23,10 @@ For this project I applied Sass using:
 ![FreecodeCamp](https://github.com/ragazziana/trombonefreecodecamp/blob/master/images/freecode.png?raw=true "FreecodeCamp")
 
 ## Technologies used in this project
-------
 1. HTML
 1. CSS
 1. Sass
 
 ## Student
-------
 👩 
 **Ana Ragazzi**
